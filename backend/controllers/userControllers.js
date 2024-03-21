@@ -181,7 +181,7 @@ exports.updateProfile = catchAsyncError(async (req, res, next) => {
   const newUserData = {
     name: req.body.name,
     email: req.body.email,
-    location: req.body.location,
+    contact: req.body.contact,
     address: req.body.address,
   };
 
